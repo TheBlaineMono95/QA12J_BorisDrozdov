@@ -1,5 +1,5 @@
 {
-  "name": "autotestqa",
+  "name": "QA12J_BorisDrozdov",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -7,5 +7,14 @@
   },
   "author": "BorisDrozdov",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "@types/mocha": "^10.0.9",
+    "@types/node": "^22.9.0",
+    "@types/selenium-webdriver": "^4.1.27",
+    "chromedriver": "^130.0.4",
+    "mocha": "^10.8.2",
+    "safaridriver": "^1.0.0",
+    "selenium-webdriver": "^4.26.0"
+  }
 }
