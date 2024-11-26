@@ -1,11 +1,25 @@
 {
-  "name": "autotestqa",
+  "name": "QA12J_BorisDrozdov",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --require ts-node/register test/**/*.ts" 
   },
   "author": "BorisDrozdov",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "@types/mocha": "^10.0.9",
+    "@types/node": "^22.9.0",
+    "@types/selenium-webdriver": "^4.1.27",
+    "chromedriver": "^130.0.4",
+    "safaridriver": "^1.0.0"
+  },
+  "devDependencies": {
+    "assert": "^2.1.0",
+    "mocha": "^10.8.2",
+    "selenium-webdriver": "^4.27.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
 }
